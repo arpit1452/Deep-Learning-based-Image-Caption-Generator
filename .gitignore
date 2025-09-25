@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+env/
+venv/
+.venv/
+
+# Jupyter/Colab checkpoints
+.ipynb_checkpoints/
+
+# Dataset (don’t push Flickr8k images)
+data/Images/
+*.npy
+*.pkl
+
+# Model weights
+models/*.h5
+models/*.ckpt
+
+# System files
+.DS_Store
+Thumbs.db

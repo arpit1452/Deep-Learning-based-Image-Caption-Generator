@@ -22,3 +22,43 @@ It combines a **Convolutional Neural Network (CNN)** for image feature extractio
 - Inference script to generate captions for custom images  
 
 ---
+
+## Folder Structure
+
+data/ # Dataset: images and captions
+src/ # Scripts: utils, feature extraction, model, training, inference
+notebooks/ # Interactive notebooks for exploration, training, inference
+requirements.txt # Python dependencies
+
+---
+
+## Dataset
+- **Images:** 8,000 images of everyday scenes.
+- **Captions:** 5 captions per image (`Flickr8k.token.txt`).
+
+**Instructions:**
+1. Download Flickr8k dataset.
+2. Place images in `data/Images/` and captions in `data/Flickr8k.token.txt`.
+
+---
+
+## Setup
+1. Clone the repo:
+git clone <your_repo_link>
+cd Image-Caption-Generator
+
+2. Install dependencies:
+   ## Training
+- Run `notebooks/03_model_training.ipynb` to train the model.
+- Training and validation loss will be plotted automatically.
+- Model weights will be saved to `models/model_weights.h5`.
+
+---
+
+## Inference / Demo
+- Run `notebooks/04_inference_demo.ipynb` to generate captions for sample images.
+- Visualize results inline or save them in `examples/`.
+
+---
+## References
+- [Flickr8k Dataset](https://github.com/jbrownlee/Datasets)

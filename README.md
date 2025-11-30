@@ -61,4 +61,4 @@ cd Image-Caption-Generator
 
 ---
 ## References
-- [Flickr8k Dataset](https://github.com/jbrownlee/Datasets)
+- [Flickr8k Dataset](https://www.kaggle.com/datasets/dibyansudiptiman/flickr-8k)
